@@ -1,0 +1,13 @@
+{
+  "title": "Welcome to PunjabSoft",
+  "text": "PunjabSoft is a specialized software development company based in Patiala, Punjab. As the exclusive development arm of Truxo, a U.S.-based organization, we are committed to creating innovative, cloud-based solutions that redefine business operations. With over a decade of experience, our mission is to transform the freight and logistics industry through advanced technology and exceptional engineering.",
+  "button": [
+    {
+      "title": "Explore Opportunities"
+    },
+    {
+      "title": "Learn More",
+      "color": "#fff"
+    }
+  ]
+}

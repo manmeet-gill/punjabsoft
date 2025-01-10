@@ -1,0 +1,16 @@
+{
+  "title": "Technology that provides value and efficiency",
+  "text": "We aim to revolutionize the freight and logistics industry by developing advanced financial solutions and applications that empower trucking brokers, dispatchers, and carriers to optimize cash flow, enhance operational efficiency, and drive sustainable growth.  Leveraging cutting-edge cloud technology, our team is crafting innovative platforms to streamline operations, enhance efficiency, and maximize profitability for stakeholders in the transportation ecosystem.",
+  "section": [
+    {
+      "title": "Latest Technology",
+      "content": "we develop and adapt applications with advancing technologies like React JS, Redwood Js. etc. ",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "AI Driven Research",
+      "content": "We provide business analytics using AI tech to improve bottlenecks and efficiency",
+      "icon": "notes.svg"
+    }
+  ]
+}
