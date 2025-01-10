@@ -1,0 +1,75 @@
+[
+  {
+    "id": "1",
+    "title": "Senior Full Stack Developer",
+    "briefDescription": "Lead and build scalable web applications with React.js and Node.js.",
+    "overview": {
+      "location": "Patiala, Punjab",
+      "employmentType": "Full-Time, Permanent",
+      "department": "Engineering - Software & QA"
+    },
+    "roleSummary": "We are looking for a Senior Full-Stack Developer with extensive experience in building scalable, client-facing web applications. The ideal candidate is an expert in React.js and backend development using Node.js, with a proven track record of leading teams and delivering high-quality software.",
+    "responsibilities": [
+      "Lead the architecture, design, and development of complex features.",
+      "Mentor junior developers and foster a collaborative team environment.",
+      "Contribute to backend services and React/React Native UI/UX layers.",
+      "Oversee DevOps and monitoring initiatives to ensure system reliability and uptime.",
+      "Work closely with leadership to drive product vision."
+    ],
+    "requiredSkills": [
+      "5-10 years of experience in full-stack development.",
+      "Proficiency in JavaScript, TypeScript, and Node.js.",
+      "Expertise in React, React Native, and related frameworks.",
+      "Extensive experience with CI/CD pipelines and system monitoring.",
+      "Strong leadership and collaboration skills."
+    ],
+    "preferredSkills": [
+      "Cloud experience is a plus.",
+      "Knowledge of data visualization libraries (e.g., D3.js, Plotly, Highcharts).",
+      "Strong communication skills to bridge technical and non-technical discussions."
+    ],
+    "whyJoinUs": [
+      "Opportunity to lead and shape the development of cutting-edge products.",
+      "Contribute to strategic decisions for emerging product and service offerings.",
+      "Collaborate in an innovative and supportive environment."
+    ],
+    "howToApply": "Please send your updated resume and portfolio (if applicable) to sidhu.j@gmail.com. Include details of your leadership experience and significant projects you’ve led."
+  },
+  {
+    "id": "2",
+    "title": "Junior Full Stack Developer",
+    "briefDescription": "Contribute to frontend development using React.js and assist with backend services using Node.js.",
+    "overview": {
+      "location": "Patiala, Punjab",
+      "employmentType": "Full-Time, Permanent",
+      "department": "Engineering - Software & QA"
+    },
+    "roleSummary": "We are seeking enthusiastic and talented Junior Full-Stack Developers to join our growing team. The ideal candidates will have hands-on experience with React.js and a basic understanding of backend development using Node.js. If you are eager to learn, take ownership of your tasks, and grow your skills in a collaborative environment, this role is perfect for you.",
+    "responsibilities": [
+      "Contribute to frontend development using React.js, focusing on building user-friendly interfaces.",
+      "Assist in developing backend services and APIs using Node.js.",
+      "Collaborate with senior developers to implement and deploy features.",
+      "Participate in code reviews and follow best practices to ensure code quality.",
+      "Learn and grow your technical skills by working closely with experienced team members."
+    ],
+    "requiredSkills": [
+      "2-4 years of experience in full-stack development.",
+      "Basic proficiency in JavaScript and Node.js.",
+      "Experience with React.js and understanding of modern web development principles.",
+      "Familiarity with version control systems like Git.",
+      "Eagerness to learn and adapt to evolving technologies."
+    ],
+    "preferredSkills": [
+      "Basic understanding of CI/CD pipelines.",
+      "Exposure to data visualization libraries is a plus.",
+      "Strong communication skills and a collaborative mindset."
+    ],
+    "whyJoinUs": [
+      "Opportunity to work on cutting-edge technologies and impactful projects.",
+      "A collaborative and supportive work environment with mentorship opportunities.",
+      "Room for growth and skill development in a fast-paced setting."
+    ],
+    "howToApply": "Send your updated resume to sidhu.j@gmail.com. Please highlight any projects or internships that showcase your skills with React.js and Node.js."
+  }
+  
+]

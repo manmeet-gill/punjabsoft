@@ -11,7 +11,7 @@ const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
-const WeAreHiring = lazy(() => import("../../components/WeAreHiring"));
+const Positions = lazy(() => import("../../components/Positions"));
 
 const Home = () => {
   return (
@@ -53,7 +53,7 @@ const Home = () => {
         icon="waving.svg"
         id="product"
       />
-        <WeAreHiring />
+        <Positions />
 
       <Contact
         title={ContactContent.title}
