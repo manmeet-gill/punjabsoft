@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/punjabsoft/static/css/main.442451ae.css",
+    "main.js": "/punjabsoft/static/js/main.21bb2761.js",
+    "static/js/882.2ede5692.chunk.js": "/punjabsoft/static/js/882.2ede5692.chunk.js",
+    "static/js/819.9b885c75.chunk.js": "/punjabsoft/static/js/819.9b885c75.chunk.js",
+    "static/js/349.c026e52f.chunk.js": "/punjabsoft/static/js/349.c026e52f.chunk.js",
+    "static/js/676.da029a97.chunk.js": "/punjabsoft/static/js/676.da029a97.chunk.js",
+    "static/js/416.0042f5b4.chunk.js": "/punjabsoft/static/js/416.0042f5b4.chunk.js",
+    "static/js/538.16c0f19b.chunk.js": "/punjabsoft/static/js/538.16c0f19b.chunk.js",
+    "static/js/566.e8cc28e2.chunk.js": "/punjabsoft/static/js/566.e8cc28e2.chunk.js",
+    "static/js/880.85d9e205.chunk.js": "/punjabsoft/static/js/880.85d9e205.chunk.js",
+    "static/js/614.73b6f128.chunk.js": "/punjabsoft/static/js/614.73b6f128.chunk.js",
+    "index.html": "/punjabsoft/index.html",
+    "main.442451ae.css.map": "/punjabsoft/static/css/main.442451ae.css.map",
+    "main.21bb2761.js.map": "/punjabsoft/static/js/main.21bb2761.js.map",
+    "882.2ede5692.chunk.js.map": "/punjabsoft/static/js/882.2ede5692.chunk.js.map",
+    "819.9b885c75.chunk.js.map": "/punjabsoft/static/js/819.9b885c75.chunk.js.map",
+    "349.c026e52f.chunk.js.map": "/punjabsoft/static/js/349.c026e52f.chunk.js.map",
+    "676.da029a97.chunk.js.map": "/punjabsoft/static/js/676.da029a97.chunk.js.map",
+    "416.0042f5b4.chunk.js.map": "/punjabsoft/static/js/416.0042f5b4.chunk.js.map",
+    "538.16c0f19b.chunk.js.map": "/punjabsoft/static/js/538.16c0f19b.chunk.js.map",
+    "566.e8cc28e2.chunk.js.map": "/punjabsoft/static/js/566.e8cc28e2.chunk.js.map",
+    "880.85d9e205.chunk.js.map": "/punjabsoft/static/js/880.85d9e205.chunk.js.map",
+    "614.73b6f128.chunk.js.map": "/punjabsoft/static/js/614.73b6f128.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.442451ae.css",
+    "static/js/main.21bb2761.js"
+  ]
+}
