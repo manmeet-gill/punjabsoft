@@ -11,12 +11,44 @@ import TextArea from "../../common/TextArea";
 import { ContactContainer, FormGroup, Span, ButtonContainer } from "./styles";
 
 const Contact = ({ title, content, id, t }: ContactProps) => {
-  const { values, errors, handleChange, handleSubmit } = useForm(validate);
+  const { values, errors, handleChange, handleSubmit, resetForm } = useForm(validate); // Include resetForm
 
   const ValidationType = ({ type }: ValidationTypeProps) => {
     const ErrorMessage = errors[type as keyof typeof errors];
     return <Span>{ErrorMessage}</Span>;
   };
+
+  const onSubmit = async (event: React.FormEvent) => {
+    event.preventDefault();
+    if (Object.keys(errors).length === 0 && values.name && values.email && values.message) {
+      try {
+        const response = await fetch("https://formspree.io/f/mgvvryej", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name: values.name,
+            email: values.email,
+            message: values.message,
+          }),
+        });
+  
+        if (response.ok) {
+          alert("Message sent successfully!");
+          resetForm(); // Clear the form fields and errors
+        } else {
+          alert("Failed to send message. Please try again.");
+        }
+      } catch (error) {
+        console.error("Error submitting form:", error);
+        alert("An error occurred. Please try again.");
+      }
+    } else {
+      alert("Please fill out all fields correctly.");
+    }
+  };
+  
 
   return (
     <ContactContainer id={id}>
@@ -28,7 +60,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
         </Col>
         <Col lg={12} md={12} sm={24} xs={24}>
           <Slide direction="right" triggerOnce>
-            <FormGroup autoComplete="off" onSubmit={handleSubmit}>
+            <FormGroup autoComplete="off" onSubmit={onSubmit}>
               <Col span={24}>
                 <Input
                   type="text"
@@ -41,7 +73,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
               </Col>
               <Col span={24}>
                 <Input
-                  type="text"
+                  type="email"
                   name="email"
                   placeholder="Your Email"
                   value={values.email || ""}
